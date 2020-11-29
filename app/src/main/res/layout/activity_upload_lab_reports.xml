@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+
+    tools:context=".uploadLabReports">
+
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="34dp"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:fontFamily=""-->
+    <!--        android:gravity="center_horizontal"-->
+    <!--        android:text="Upload Report"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textSize="30sp" />-->
+    <EditText
+        android:id="@+id/notenameupload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Reports Title"
+        android:textSize="22sp"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:id="@+id/uploadnotes_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:background="#000099"
+        android:textColor="#fff"
+        android:text="Upload"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/viewNotes_uploaded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:background="#6666ff"
+        android:onClick="btn_action1"
+        android:text="View Uploaded Reports"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        tools:ignore="OnClick" />
+
+</LinearLayout>

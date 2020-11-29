@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".treatmentDataP">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:text="Medicine Details"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000">
+
+    </TextView>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:background="#196DEC">
+
+            <TextView
+                android:id="@+id/medicineP"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/cutom2"
+                android:textColor="#ffffff"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="Medicines"
+                android:textSize="18dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/morningP"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/cutom2"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="Morning"
+                android:textColor="#ffffff"
+                android:textSize="18dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/afternoonP"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/cutom2"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:textColor="#ffffff"
+                android:text="Afternoon"
+                android:textSize="18dp">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/eveningP"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/cutom2"
+                android:textColor="#ffffff"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="Evening"
+                android:textSize="18dp">
+
+            </TextView>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/medicine1P"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/cutom2"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:textSize="15dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/morning1P"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/cutom2"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:textSize="15dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/afternoon1P"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/cutom2"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:textSize="15dp">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/evening1P"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/cutom2"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:textSize="15dp">
+
+            </TextView>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/medicine2P"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/cutom2"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:textSize="15dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/morning2P"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/cutom2"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:textSize="14dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/afternoon2P"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/cutom2"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:textSize="15dp">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/evening2P"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/cutom2"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:textSize="15dp">
+
+            </TextView>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/medicine3P"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/cutom2"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:textSize="15dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/morning3P"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/cutom2"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:textSize="15dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/afternoon3P"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/cutom2"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:textSize="15dp">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/evening3P"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/cutom2"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:textSize="15dp">
+
+            </TextView>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/medicine4P"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/cutom2"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:textSize="15dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/morning4P"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/cutom2"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:textSize="14dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/afternoon4P"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/cutom2"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:textSize="15dp">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/evening4P"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/cutom2"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:textSize="15dp">
+
+            </TextView>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/medicine5P"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/cutom2"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:textSize="15dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/morning5P"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/cutom2"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:textSize="15dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/afternoon5P"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/cutom2"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:textSize="15dp">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/evening5P"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/cutom2"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:textSize="15dp">
+
+            </TextView>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/medicine6P"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/cutom2"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:textSize="15dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/morning6P"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/cutom2"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:textSize="15dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/afternoon6P"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/cutom2"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:textSize="15dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/evening6P"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/cutom2"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:textSize="15dp">
+
+            </TextView>
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>

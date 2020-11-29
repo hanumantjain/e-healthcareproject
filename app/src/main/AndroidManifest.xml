@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.try1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/launcher_icon1"
+        android:label="Inspire HealthCare"
+        android:roundIcon="@mipmap/launcher_icon1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApp"
+        tools:replace="android:label">
+        <activity android:name=".viewlabupload"></activity>
+        <activity android:name=".showBookedAppoitment" />
+        <activity android:name=".bookAppointment2" />
+        <activity android:name=".fill_transaction" />
+        <activity android:name=".DetailActivity" />
+        <activity android:name=".AffectedCountries" />
+        <activity android:name=".CovidStats" />
+        <activity android:name=".HealthTips" />
+        <activity android:name=".aa" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".caseHistoryP" />
+        <activity android:name=".patientDetailsP" />
+        <activity android:name=".treatmentDataP" />
+        <activity android:name=".medicalDetailsP" />
+        <activity android:name=".clinicalDataP" />
+        <activity android:name=".DiscussionActivity" />
+        <activity android:name=".medicalDetailsD" />
+        <activity android:name=".treatmentDataD" />
+        <activity android:name=".clinicalDataD" />
+        <activity android:name=".patientDetailsD" />
+        <activity android:name=".ViewImageActivity" />
+        <activity android:name=".uploadLabReports" />
+        <activity android:name=".uploadPrescription" />
+        <activity android:name=".fillCaseHistory" />
+        <activity android:name=".checkSchedule2" />
+        <activity android:name=".checkSchedule1" />
+        <activity android:name=".viewUpload_statusReport" />
+        <activity android:name=".NoteEditorActivity" />
+        <activity android:name=".transaction_1" />
+        <activity android:name=".medicalOrder" />
+        <activity android:name=".meetings" />
+        <activity android:name=".liveChat" />
+        <activity android:name=".statusReport" />
+        <activity android:name=".keepNotes" />
+        <activity android:name=".checkSchedule" />
+        <activity android:name=".doctorSide" />
+        <activity android:name=".reports" />
+        <activity android:name=".prescription" />
+        <activity android:name=".pharmacy" />
+        <activity android:name=".transaction" />
+        <activity android:name=".bookAppointment" />
+        <activity android:name=".patientSide" />
+        <activity android:name=".doctorSignUp" />
+        <activity android:name=".doctorSignIn" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".studentSignIn" />
+        <activity android:name=".loginAs" />
+        <activity android:name=".studentSignup" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
