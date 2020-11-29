@@ -39,7 +39,6 @@
         <activity android:name=".uploadPrescription" />
         <activity android:name=".fillCaseHistory" />
         <activity android:name=".checkSchedule2" />
-        <activity android:name=".checkSchedule1" />
         <activity android:name=".viewUpload_statusReport" />
         <activity android:name=".NoteEditorActivity" />
         <activity android:name=".transaction_1" />
@@ -51,9 +50,7 @@
         <activity android:name=".checkSchedule" />
         <activity android:name=".doctorSide" />
         <activity android:name=".reports" />
-        <activity android:name=".prescription" />
         <activity android:name=".pharmacy" />
-        <activity android:name=".transaction" />
         <activity android:name=".bookAppointment" />
         <activity android:name=".patientSide" />
         <activity android:name=".doctorSignUp" />

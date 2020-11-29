@@ -1,15 +1,14 @@
 package com.example.try1;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
-import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -21,7 +20,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.Objects;
 
 public class doctorSignIn extends AppCompatActivity {
-    Button doclogin_btn2, moveToSignUp2;
+    Button moveToSignUp2;
     EditText username2, password2;
     ProgressBar progSignD;
 
@@ -65,17 +64,6 @@ public class doctorSignIn extends AppCompatActivity {
 
                     if (Objects.equals(passwordFromDB, userEnteredPassword)) {
                         username2.setError(null);
-                        //username.setErrorEnabled(false);
-
-                       /* doclogin_btn2 = findViewById(R.id.docbtnLogin);
-
-                        doclogin_btn2.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                moveToDashPage();
-
-                            }
-                        });*/
 
                         Intent intent = new Intent(doctorSignIn.this,doctorSide.class);
                         startActivity(intent);

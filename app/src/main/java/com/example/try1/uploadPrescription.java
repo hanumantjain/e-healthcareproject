@@ -1,9 +1,5 @@
 package com.example.try1;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.ContentResolver;
 import android.content.Intent;
 import android.net.Uri;
@@ -18,6 +14,10 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DatabaseReference;
@@ -27,7 +27,6 @@ import com.google.firebase.storage.OnProgressListener;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.StorageTask;
 import com.google.firebase.storage.UploadTask;
-import com.squareup.picasso.Picasso;
 
 public class uploadPrescription extends AppCompatActivity {
 
@@ -119,6 +118,7 @@ public class uploadPrescription extends AppCompatActivity {
 
     private void uploadImage() {
         if (imgUrl != null) {
+            uploadProgress.setVisibility(View.VISIBLE);
             final StorageReference fileReference = mStorageRef.child(System.currentTimeMillis() + "." + getFileExtension(imgUrl));
 
             mUploadTask = fileReference.putFile(imgUrl)
@@ -132,6 +132,7 @@ public class uploadPrescription extends AppCompatActivity {
                                     uploadProgress.setProgress(0);
                                 }
                             }, 500);
+                            uploadProgress.setVisibility(View.GONE);
                             fileReference.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
                                 @Override
                                 public void onSuccess(Uri uri) {

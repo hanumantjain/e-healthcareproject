@@ -64,7 +64,7 @@ public class patientSide extends AppCompatActivity implements View.OnClickListen
                 startActivity(i);
                 break;
             case R.id.c3:
-                i=new Intent (this,transaction.class);
+                i=new Intent (this,transaction_1.class);
                 startActivity(i);
                 break;
             case R.id.c4:

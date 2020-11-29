@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class loginAs extends AppCompatActivity {
     private Button moveToAdmin, moveToStudents;
     private TextView tv_aboutus, tv_healthtips;
-    private Button covidStat;
+    private TextView covidStat;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

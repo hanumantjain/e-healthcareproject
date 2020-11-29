@@ -24,12 +24,13 @@
         android:layout_alignParentLeft="true"
         android:background="#91f1f1f1"
         android:orientation="horizontal"
-        android:paddingBottom="2dp" >
+        android:paddingBottom="2dp"
+        tools:ignore="RtlHardcoded">
 
 
         <EditText
             android:id="@+id/etMessage"
-            android:layout_width="252dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
@@ -37,7 +38,8 @@
             android:layout_toLeftOf="@+id/sendMessageButton"
             android:layout_weight="0.72"
             android:ems="10"
-            android:maxHeight="80dp" />
+            android:maxHeight="80dp"
+            tools:ignore="ObsoleteLayoutParam,RtlHardcoded" />
 
         <Button
             android:id="@+id/btnSendMsg"

@@ -22,13 +22,14 @@
 
     <EditText
         android:id="@+id/txt_pdfName"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:hint="Enter PDF File Name:"
+        android:hint="Enter File Name:"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
@@ -47,30 +48,34 @@
 
     <Button
         android:id="@+id/btn_upload"
-        android:layout_width="match_parent"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:background="@drawable/rounded_button"
         android:text="Upload"
         android:textColor="#ffffff"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.649"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintVertical_bias="0.645" />
 
     <Button
         android:id="@+id/btn_view"
-        android:layout_width="match_parent"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:background="@drawable/rounded_button"
         android:onClick="btn_action"
-        android:text="View Uploaded Files"
+        android:text="View "
         android:textColor="#ffffff"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.751"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintVertical_bias="0.643" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
